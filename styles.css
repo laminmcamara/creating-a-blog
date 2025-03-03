@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif; /* Sets a clean font for the page */
+    background-color: #f0f0f0; /* Light gray background color */
+    margin: 20px; /* Adds margin around the body */
+}
+
+h1 {
+    color: rgb(255, 0, 0); /* Color for the main heading */
+    text-align: center; /* Center the main heading */
+}
+
+h2 {
+    color: darkblue; /* Color for the subheading */
+    text-align: center; /* Center the subheading */
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 0, 0); /* Color for h3 elements */
+}
+
+.profile-img {
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    border-radius: 50%; /* Makes the image round */
+    width: 200px; /* Sets the width of the image (adjust as needed) */
+    height: 200px; /* Sets the height to match width for a perfect circle */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.intro, .details, .conclusion {
+    margin: 0 20px; /* Adds left and right margin for better alignment */
+    text-align: left; /* Aligns the text to the left */
+}
+
+.intro {
+    font-weight: bold; /* Makes the introductory paragraph bold */
+    color: rgb(0, 0, 255); /* Color for the introductory paragraph */
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+.details {
+    font-weight: bold; /* Makes the details paragraph bold */
+    color: rgb(128, 0, 0); /* Color for the details paragraph */
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+.conclusion {
+    text-decoration: underline; /* Underlines the conclusion paragraph */
+    color: darkblue; /* Color for the conclusion paragraph */
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+.centered {
+    text-align: center; /* Centers this paragraph */
+    margin: 10px 0; /* Adds some margin to the top and bottom */
+}
+
+.first {
+    text-align: center; /* Centers this element */
+    border-radius: 0%; /* No rounded corners */
+    color: red; /* Color for the first class elements */
+}
+
+.button-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the buttons */
+    margin: 20px 0; /* Add vertical margin around the container */
+}
+
+.button {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    margin: 0 10px; /* Space between buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.content-section {
+    display: none; /* Hide sections initially */
+    margin-top: 20px; /* Space above the content */
+}
+
+.active {
+    display: block; /* Show the active section */
+}

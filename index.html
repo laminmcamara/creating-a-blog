@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My Machine Learning Blog</title>
+    <meta name="description" content="This work is my third HTML web development self-learning project.">
+    <meta name="keywords" content="html, css, web development">
+    <meta name="author" content="Lamin M Camara">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    
+</head>
+<body style="background-color: beige;">
+    <h1 style="color: black;">Welcome to my Page</h1>
+    <img class="profile-img" src="lamino4.jpg" alt="Author's Picture" width="100">
+    <h1 style="background-color: gold;">What is Machine Learning?</h1>
+    <h2>My Viewpoint and Understanding!</h2>
+    <p class="intro" style="color: black;">Machine learning is an aspect of artificial intelligence where we train computers to perform tasks traditionally done by humans.</p>
+    <p class="details">It enables computers to learn from data and improve their performance over time without being explicitly programmed.</p>
+    <p class="conclusion">The recent advancement of technology and Big Data is inevitably making machine learning significant for all industries, including healthcare, finance, and technology.</p>
+    
+    <h3>Types of Machine Learning</h3> 
+    <p class="centered">Machine learning can be categorized into several types but mainly three:</p>
+    <small>Click on the links to learn more</small>
+    
+    <div class="button-container">
+        <button class="button" onclick="toggleContent('section1')">Supervised Learning</button>
+        <button class="button" onclick="toggleContent('section2')">Unsupervised Learning</button>
+        <button class="button" onclick="toggleContent('section3')">Reinforcement Learning</button>
+    </div>
+
+    <!-- Sections corresponding to the buttons -->
+    <div id="section1" class="content">
+        <h2>Supervised Learning:</h2>
+        <br>In simple terms, when we are training a machine learning algorithm with a label dataset which enhances the algorithm to learn the patterns between the input and the outcomes, this type of training is called SUPERVISED learning.
+            <p>
+            If for example I want the machine to identify whether an email is <class class="highlight">'spam'</class> or <class  class="highlight">'not spam'</class>, I have to manually label the training data with the characteristics of 'spam' emails based on their history before passing it to the algorithm. By this way the machine learning model will learn from the pattern to give accurate prediction on a new data.</p>
+            <br>
+                Another example of a supervised learning is training a deep learning model on image prediction. My dataset with pictures of different animals will be labelled with the exact names of these animals before passing to train the model, after this training the model will be able to predict the new data even without labelling them again and again. The more data you train the machine the more smarter it becomes.</br>
+
+                <button id="showImageButton" style="background-color: rgb(0, 255, 255);">click here</button>
+    <img id="dogorcat" src="laimino4.jpg" alt="Illustration" class="inline-image">
+
+
+                Cat or Dog?
+            </p>
+
+        </p>
+    </div>
+    <div id="section2" class="content">
+        <h2>Unsupervised Learning:</h2>
+        <p>Unsupervised Learning is the direct opposite of supervised learnining where a machine learning model is train on a given data with no labels. Since it is learning without any labels, the model tries to identify patterns, groupings and the structure of the given data in order to be able to make predictions.</p>
+        <h3>Characteristics of unsupervised learning:</h3>
+        <p>Some key aspects of unsupervised learning include : </p>
+        <ol>
+            <li>the data given has no label to teach the model</li>
+            <li>Clustering: this is where the model group together data points with similarities</li>
+            <li>Dimensional reduction: here the model uses techniques like Principal Component Analysis <a href="https://www.google.com/search?q=Principal+Component+Analysis" target="_blank">PCA</a> to reduce the data into it's most important components for easy analyis.</li>
+            <li>Anomaly detection: this is where the model learns about the irregular patterns within the data also called Outliers. Transactions that are not normal will be identified just like fraud detection.</li>
+
+        </ol>
+        <h4>Common uses of unsupervised learning :</h4>
+        <ul><li>Customer segmentation</li>
+        <li>Market basket analysis</li>
+    <li>Credit card fraud detection</li>
+<li>Document clustering</li><li>Image detection</li>
+<li>Network security anomaly detection</li></ul>
+<P>Let's now try to understand some common algorithms used in unsupervised learning before moving ahead:</P>
+<button type="button" style="font-weight: bold;">K-Means Clustering</button>
+
+<button type="button" style="font-weight: bold;">Hierarchical Clustering</button>
+<button type="button" style="font-weight :bold;">DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+</button>
+<button type="button" style="font-weight : bold;">Principal Component Analysis (PCA)
+</button>
+<button type="button" style="color: rgb(0, 0, 0); font-weight : bold">t-SNE (t-distributed Stochastic Neighbor Embedding)
+</button>
+
+    </div>
+    <div id="section3" class="content">
+        <h2>Reinforcement Learning:</h2>
+        <p>Details coming...</p>
+    </div>
+   <script src="script.js"></script> <!-- Link to external JavaScript -->
+     
+</body>
+</html>
