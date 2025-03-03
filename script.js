@@ -14,3 +14,6 @@ document.getElementById('showImageButton').addEventListener('click', function() 
     }
 });
 
+function showContactInfo() {
+    alert("Contact info:\nEmail: laminmasana@gmail.com\nGitHub: https://github.com/laminmcamara\nLinkedIn: https://www.linkedin.com/in/laminmasanacamara\n\nCopy the links and paste them in your browser.");
+}

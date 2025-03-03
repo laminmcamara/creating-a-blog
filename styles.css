@@ -96,3 +96,19 @@ h3 {
 .active {
     display: block; /* Show the active section */
 }
+
+.contact {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: -100px; /* Adjust based on your image width */
+    background-color: #f0f0f0; /* Optional: background color */
+    padding: 10px; /* Optional: padding */
+    border: 1px solid #ccc; /* Optional: border */
+    border-radius: 5px; /* Optional: rounded corners */
+    color: blue; /* Change text color to blue */
+    cursor: pointer; /* Change cursor to pointer */
+}
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
