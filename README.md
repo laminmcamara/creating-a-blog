@@ -33,10 +33,10 @@ This is my third self-learning project in web development, focusing on creating 
 
 1. Clone the repository:
    **bash**
-   git clone https://github.com/yourusername/my-machine-learning-blog.git
+   git clone https://github.com/laminmcamara/creating-a-blog.git
 Navigate to the project directory:
 **bash**
-cd my-machine-learning-blog
+cd creating-a-blog
 Open index.html in your web browser.
 
 ## Contact Information
